@@ -56,6 +56,9 @@ button{
     border-top: 5px solid rgb(192, 192, 192);
     border-bottom: 5px solid rgb(197, 197, 197);
 }
+.bared-logo img{
+    width: 100%;
+}
 .products-container{
     margin: 30px 0;
     display: grid;
@@ -98,7 +101,7 @@ footer{
     }
     .bared-logo{
         display: grid;
-        grid-template-columns: repeat(3, 1fr)
+        grid-template-columns: repeat(4, 1fr)
     } 
     .products-container div{
         text-align: start;
